@@ -1,0 +1,70 @@
+{% assign records = include.records | sort_natural: "farmer-sort-name" %}
+
+<div class="farmer-records">
+  {% for record in records %}
+  {% assign farmer_name = record["farmer-name"] | default: record.title %}
+  {% assign farm = record.farm %}
+  {% assign summary = record.summary | strip %}
+  {% assign interviewer = record.interviewer %}
+  {% assign webpage_authors = record["webpage-authors"] %}
+  {% assign repository_link = record["repository-link"] %}
+  {% assign record_image = record.thumbnail | default: record.header-image %}
+  {% assign record_dir = record.dir | default: '' %}
+  {% assign record_url = record.url | relative_url %}
+  {% assign record_image_first_char = record_image | strip | slice: 0, 1 %}
+
+  {% if farmer_name %}
+  <article class="farmer-record">
+    {% if record_image %}
+    {% if record_image contains 'http' %}
+      {% assign record_image_url = record_image %}
+    {% elsif record_image_first_char == '/' %}
+      {% assign record_image_url = record_image | relative_url %}
+    {% else %}
+      {% assign record_image_path = record_dir | append: record_image %}
+      {% assign record_image_url = record_image_path | relative_url %}
+    {% endif %}
+    <a class="farmer-record__image-link" href="{{ record_url }}" aria-label="View profile for {{ farmer_name }}">
+      <img src="{{ record_image_url }}" alt="{{ record.alt | default: farmer_name }}"{% if record.thumbnail-position %} style="object-position: {{ record.thumbnail-position }};"{% endif %}>
+    </a>
+    {% endif %}
+
+    <div class="farmer-record__body">
+      <div>
+        {% if farm %}<p class="farmer-record__farm">{{ farm }}</p>{% endif %}
+        <h3>{{ farmer_name }}</h3>
+        {% if summary != "" %}
+        <p class="farmer-record__summary">{{ summary }}</p>
+        {% endif %}
+      </div>
+
+      <div class="farmer-record__footer">
+        {% if interviewer or webpage_authors %}
+        <dl class="farmer-record__meta">
+          {% if interviewer %}
+          <div>
+            <dt>Interview</dt>
+            <dd>{{ interviewer }}</dd>
+          </div>
+          {% endif %}
+          {% if webpage_authors %}
+          <div>
+            <dt>Profile</dt>
+            <dd>{{ webpage_authors | join: ", " }}</dd>
+          </div>
+          {% endif %}
+        </dl>
+        {% endif %}
+
+        <div class="farmer-record__links" aria-label="Links for {{ farmer_name }}">
+          {% if repository_link %}
+          <a href="{{ repository_link }}">Oral history</a>
+          {% endif %}
+          <a href="{{ record_url }}">View profile</a>
+        </div>
+      </div>
+    </div>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

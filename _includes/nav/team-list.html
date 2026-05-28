@@ -1,0 +1,14 @@
+<div class="team-list">
+  {% for member in include.members %}
+  <div class="team-member">
+    {% if member.thumbnail %}
+    <img src="{{ site.baseurl }}/{{ member.thumbnail }}" alt="{{ member.title }}" class="team-member__photo">
+    {% endif %}
+    <div class="team-member__info">
+      <h3 class="team-member__name">{% if member.url %}<a href="{{ member.url }}">{{ member.title }}</a>{% else %}{{ member.title }}{% endif %}</h3>
+      {% if member.summary %}<p class="team-member__org">{{ member.summary }}</p>{% endif %}
+      {% if member.description %}<p class="team-member__role">{{ member.description }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

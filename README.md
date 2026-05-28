@@ -1,136 +1,120 @@
-# Xanthan Portfolio Template
+# Farming the Middle Rio Grande
 
-**A ready-to-use portfolio website template powered by [Xanthan](https://xanthan-web.github.io/xanthan/).**
+An oral history project documenting the people growing food along the Middle Rio Grande — their practices, family histories, land relationships, market realities, and visions for more resilient local food systems.
 
-This template gives you a complete portfolio site with:
-- Professional homepage and about page
-- Profile sidebar with photo and links
-- Sample project pages and CV
-- All Xanthan design components ready to use
-- Free hosting on GitHub Pages
+**Live site:** [fwgibbs.github.io/oral-histories](https://fwgibbs.github.io/oral-histories/) *(update with actual URL)*
 
-## Quick Start
+---
 
-**Get your site online in 10 minutes** by following the [Getting Started Guide](https://xanthan-web.github.io/xanthan/docs/getting-started/).
+## About the Project
 
-1. Click "Use this template" → "Create a new repository"
-2. Name your repository `YOUR-USERNAME.github.io`
-3. Configure GitHub Pages in Settings
-4. Edit the content to make it yours
+Interviews were conducted by students in **GEOG-589: Qualitative Methods** (Fall 2025). Web profiles were written and published by students in **SUST-364: Local Food Systems Practicum** (Spring 2026). Oral history recordings are archived in the [UNM Digital Repository](https://digitalrepository.unm.edu/).
 
-That's it! Your portfolio is live.
+The site is built on [Xanthan](https://xanthan-web.github.io/xanthan/), a Jekyll-based framework for digital scholarship.
 
-## What's Included
+---
 
-This template comes pre-configured with:
+## Adding a Farmer Profile
 
-### Sample Content
-- **Homepage** - Introduction and featured work
-- **About page** - Bio and background
-- **CV/Resume** - Academic or professional CV
-- **Project pages** - Sample essays and work examples
-- **Profile sidebar** - Photo, name, and social links
-
-### Xanthan Framework
-The template includes the complete Xanthan framework with all its features:
-- Typography components (pull quotes, footnotes, blockquotes)
-- Image components (carousels, juxtapose, jumbotrons)
-- Header images and backgrounds
-- ScrollStory layouts for narrative essays
-- Navigation systems (top nav, cards, sidebar)
-- Customizable color themes
-
-**You can use any Xanthan feature** even if it's not in the demo content. All the code is here.
-
-## Editing Your Site
-
-### On GitHub (No Installation Required)
-1. Click any `.md` file in your repository
-2. Click the pencil icon to edit
-3. Make changes and commit
-4. Wait 1-2 minutes for your site to rebuild
-
-### Locally (For Advanced Users)
-See the [Previewing Locally](https://xanthan-web.github.io/xanthan/docs/getting-started/previewing-locally) guide to set up Jekyll on your computer.
-
-## Documentation & Help
-
-### Documentation in Your Repository
-📚 **Local docs in `/docs/` folder** - Complete documentation matching your code version
-
-Browse documentation directly in your repository:
-- **Getting Started** - Setup and basic usage
-- **Content & Design** - Typography, images, colors, and themes
-- **Navigation** - Menu systems and site organization
-- **ScrollStories** - Narrative scrolling layouts
-
-**Note:** You can safely delete the `/docs/` folder once you're comfortable with Xanthan. All components will continue to work.
-
-### Online Documentation
-📖 **[Xanthan Documentation Site](https://xanthan-web.github.io/xanthan/docs/)** - Latest documentation and updates
-
-**Essential Guides:**
-- [Understanding Folders](https://xanthan-web.github.io/xanthan/docs/getting-started/understanding-folders) - Where files go
-- [Editing Your Site](https://xanthan-web.github.io/xanthan/docs/getting-started/editing-in-github) - How to make changes
-- [Typography](https://xanthan-web.github.io/xanthan/docs/content-design/typography) - Text formatting
-- [Images](https://xanthan-web.github.io/xanthan/docs/content-design/images) - Adding and styling images
-- [Colors & Themes](https://xanthan-web.github.io/xanthan/docs/content-design/colors-fonts-themes) - Customizing appearance
-
-### Using AI Assistance
-Want help customizing your site? See [Using AI Assistance](https://xanthan-web.github.io/xanthan/docs/content-design/using-ai-assistance) to learn how to work with Claude or ChatGPT.
-
-### Troubleshooting
-Having issues? Check the [Troubleshooting Guide](https://xanthan-web.github.io/xanthan/docs/content-design/troubleshooting) for common problems and solutions.
-
-## About Xanthan
-
-[Xanthan](https://xanthan-web.github.io/xanthan/) is a free, open-source website framework for digital scholarship, portfolios, and narrative essays. It's built on Jekyll and designed for researchers, students, and writers who want powerful design tools without deep technical knowledge.
-
-**Key Features:**
-- Works entirely in your browser (no software to install)
-- Free hosting on GitHub Pages
-- Beautiful, accessible design out of the box
-- Powerful components for scholarly and creative work
-- AI-friendly for easy customization
-
-## Version Information
-
-This template is regularly updated with the latest Xanthan features.
-
-- **Xanthan Framework**: See `XANTHAN_CHANGELOG.md` for version and changes
-- **Template Content**: Maintained separately from Xanthan core
-
-When you fork this template, you get a snapshot of Xanthan at that moment. To get new Xanthan features later, you can manually copy files from this template repository.
-
-## File Structure
+Each farmer gets a folder inside `farmer-profiles/`:
 
 ```
-├── _includes/          # Xanthan components (synced from main repo)
-├── _layouts/           # Page layouts (synced from main repo)
-├── assets/
-│   ├── css/           # Stylesheets (synced from main repo, except sidebar.css)
-│   ├── js/            # JavaScript (synced from main repo)
-│   └── images/        # Your images (template-specific)
-├── docs/              # Documentation (synced from main repo)
-│   ├── getting-started/
-│   ├── content-design/
-│   ├── navigation/
-│   └── scrollstories/
-├── scrollstories/     # ScrollStory examples (synced from main repo)
-├── _data/             # Site configuration (template-specific)
-├── _config.yml        # Jekyll settings (template-specific)
-└── *.md files         # Your content pages (template-specific)
+farmer-profiles/
+  firstname-lastname/
+    index.md        ← the profile page
+    images/         ← photos for this profile
+    audio/          ← audio clips for this profile
 ```
 
-**Template-specific** = You customize these
-**Synced from main repo** = Updated automatically from Xanthan
+### Frontmatter fields
 
-## Need Help?
+Copy this block to the top of a new `index.md` and fill it in:
 
-- 📖 [Full Xanthan Documentation](https://xanthan-web.github.io/xanthan/)
-- 💬 [Report Issues](https://github.com/xanthan-web/portfolio-template/issues)
-- 🤖 Use AI tools (Claude, ChatGPT) for customization help
+```yaml
+---
+title: Farmer Name
+farmer-name: Farmer Name
+farmer-sort-name: Lastname, Firstname
+farm: Farm Name
+interviewer: Interviewer Name or Anonymous
+webpage-authors:
+    - Student One
+    - Student Two
+interview-date: 2025-11-01
+webpage-date: 2026-05-01
+repository-link: https://digitalrepository.unm.edu/...
+webpage-class: SUST-364, Spring 2026
+interview-class: GEOG-589, Fall 2025
+layout: scrollstory
+thumbnail: images/filename.jpg
+thumbnail-position: center center
+summary: One or two sentence description shown on the profiles index.
+header-image: images/filename.jpg
+header-position: center center
+geo: [35.68, -106.10]
+placename: New Mexico
+tags:
+    - sustainability
+---
+```
 
-## License
+### Content components
 
-This template and the Xanthan framework are open source and free to use for any purpose.
+Inside the page body, use these includes to add media and pull quotes:
+
+```liquid
+{% include images/figure.html class="right" width="45%"
+   image-path="images/photo.jpg" caption="Caption text." %}
+
+{% include typography/aside.html class="right"
+   text="A pull quote from the farmer." %}
+
+{% include media/audio.html src="audio/clip.mp3" %}
+```
+
+`class` can be `right`, `left`, or `center`. Blockquotes use standard Markdown (`>`).
+
+---
+
+## Site Pages
+
+| File | Purpose |
+|------|---------|
+| `index.md` | Homepage |
+| `oral-histories.md` | List of all farmer profiles |
+| `farmer-profiles/index.md` | Full-width card grid of profiles |
+| `about.md` | Project description and team |
+| `contact.md` | Contact information |
+| `map.md` | Geographic map of farm locations |
+| `instructions.md` | Student editing guide (not in nav) |
+
+---
+
+## CSS Files
+
+Stylesheets live in `assets/css/`. Every page loads the core set; individual pages can add more via `css: filename.css` in frontmatter.
+
+| File | Purpose |
+|------|---------|
+| `base.css` | Variables, reset, layout, header images, footer |
+| `typography.css` | Headings, body text, blockquotes, pullquotes |
+| `nav.css` | Top navigation bar |
+| `cards.css` | Farmer record cards, oral history list, contact list |
+| `backgrounds.css` | Scrollstory background image components |
+| `scrollstory.css` | Farmer profile page layout, figures, metadata card |
+| `home.css` | Homepage and about page components, team list |
+| `dark-energy.css` | Alternate dark theme (not loaded by default — instructional example) |
+| `simple-theme.css` | Minimal theme override starter (instructional example) |
+
+---
+
+## Running Locally
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open `http://localhost:4000/oral-histories/`.
+
+Requires Ruby and Bundler. See the [Xanthan local preview guide](https://xanthan-web.github.io/xanthan/docs/getting-started/previewing-locally) for setup instructions.

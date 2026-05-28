@@ -1,0 +1,33 @@
+{% assign contacts = include.contacts %}
+
+<div class="contact-list">
+  {% for contact in contacts %}
+  {% if contact.email %}
+  <article class="contact-list__item">
+    {% if contact.thumbnail %}
+    {% capture contact_image_url %}
+      {% include images/image-path.html image-path=contact.thumbnail %}
+    {% endcapture %}
+    {% assign contact_image_url = contact_image_url | strip %}
+    <img src="{{ contact_image_url }}" alt="{{ contact.title }}">
+    {% endif %}
+
+    <div class="contact-list__body">
+      <h3>{{ contact.title }}</h3>
+      {% if contact.summary %}
+      <p class="contact-list__summary">{{ contact.summary }}</p>
+      {% endif %}
+      {% if contact.description %}
+      <p>{{ contact.description }}</p>
+      {% endif %}
+      <div class="contact-list__links">
+        <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        {% if contact.url %}
+        <a href="{{ contact.url }}">Bio</a>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

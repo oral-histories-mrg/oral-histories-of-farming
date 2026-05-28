@@ -5,12 +5,50 @@ NAVIGATION
 @media screen {
 
 /*****************************************************
+INSTITUTION STRIP
+*****************************************************/
+
+.institution-strip {
+  padding: 0.38rem 0;
+  color: rgba(245, 243, 240, 0.58);
+  background: #1e2a22;
+  border-bottom: 1px solid rgba(245, 243, 240, 0.18);
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.institution-strip__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 clamp(0.75rem, 3vw, 2rem);
+}
+
+.institution-strip a {
+  color: rgba(245, 243, 240, 0.66);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.institution-strip a:hover {
+  color: #fff;
+}
+
+/*****************************************************
 TOPNAV
 *****************************************************/
 
 .navbar {
+  position: relative;
+  z-index: 20;
+
   /* Box Model */
-  padding: 0.15rem var(--spacing-sm);  /* Compact modern height ~48-50px */
+  padding: 0.45rem var(--spacing-sm);
 
   /* Typography */
   font-family: var(--font-body);
@@ -19,13 +57,16 @@ TOPNAV
 
   /* Visual */
   background-color: var(--bg-nav) !important;
-  border-bottom: 1px solid var(--accent-border);
+  border-bottom: 2px solid rgba(184, 149, 106, 0.75);
 }
 
 .navbar-brand {
   /* Typography */
-  font-size: 1.1rem;
-  font-weight: 600 !important;
+  max-width: 36rem;
+  font-size: 0.98rem;
+  font-weight: 800 !important;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
   color: var(--text-on-dark) !important;  /* Explicit color for template users */
   text-decoration: none;
 
@@ -35,7 +76,7 @@ TOPNAV
 
 .navbar-brand:hover {
   /* Typography */
-  color: var(--text-on-dark) !important;
+  color: var(--sage-pale) !important;
 }
 
 .navbar-toggler {
@@ -57,24 +98,32 @@ TOPNAV
   /* Display */
   display: flex;
   list-style: none;
-  gap: var(--spacing-sm);
+  gap: 0.35rem;
 }
 
 /* Use Bootstrap's .nav-link class for consistency */
 .nav-link {
+  position: relative;
+
   /* Box Model */
   display: inline-block;
-  padding: 0.3rem var(--spacing-sm);
+  padding: 0.42rem 0.68rem;
 
   /* Typography */
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  line-height: 1;
   text-decoration: none;
-  color: var(--text-on-dark) !important;
+  text-transform: uppercase;
+  color: rgba(232, 228, 223, 0.55) !important;
 
   /* Visual */
   border-radius: var(--radius-sm);
+  border: 1px solid transparent;
 
   /* Interactivity */
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
 }
 
 .nav-link:visited {
@@ -85,7 +134,27 @@ TOPNAV
 .nav-link:hover,
 .nav-link:focus {
   /* Typography */
-  color: var(--interactive-hover) !important;
+  color: var(--warm-white) !important;
+
+  /* Visual */
+  background: rgba(245, 243, 240, 0.08);
+  border-color: rgba(184, 149, 106, 0.42);
+}
+
+.nav-link.active,
+.nav-link.active:visited {
+  color: var(--warm-white) !important;
+  border-bottom: 2px solid var(--golden-clay);
+}
+
+.nav-link.active:hover,
+.nav-link.active:focus {
+  color: var(--warm-white) !important;
+  border-bottom: 2px solid var(--golden-clay);
+}
+
+.nav-link.active::after {
+  display: none;
 }
 
 
@@ -144,11 +213,24 @@ ul .dropdown-menu {
   background-color: transparent;
 }
 
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    gap: 0.2rem;
+    padding-top: var(--spacing-xs);
+  }
 
-/*****************************************************
-SIDENAV - See nav-left.css and nav-profile.css for sidebar styling
-*****************************************************/
+  .nav-link {
+    width: 100%;
+  }
 
+  .nav-link.active,
+  .nav-link.active:visited,
+  .nav-link.active:hover,
+  .nav-link.active:focus {
+    border-bottom: none;
+    border-left: 2px solid var(--golden-clay);
+  }
+}
 
 
 
@@ -184,38 +266,74 @@ BREADCRUMB NAVIGATION
 } /* end media screen */
 
 
-.navbar-workshop-toggle {
-  display: flex;
+/*****************************************************
+FOOTER
+*****************************************************/
+
+footer.site-footer {
+  margin-top: auto;
+  padding: clamp(1.5rem, 4vw, 2.4rem) clamp(1rem, 3vw, 2rem);
+  color: var(--warm-white);
+  background: var(--sage-dark);
+  border-top: 2px solid rgba(184, 149, 106, 0.45);
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1rem, 4vw, 3rem);
   align-items: center;
-  margin-left: auto;
-  padding: 0 1rem;
+  max-width: 82rem;
+  margin: 0 auto;
 }
 
-.navbar-workshop-toggle .form-switch {
+.site-footer__brand {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.2;
+  color: var(--warm-white);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.site-footer__brand:visited,
+.site-footer__brand:hover {
+  color: var(--golden-clay);
+}
+
+.site-footer__credit {
+  max-width: 52rem;
   margin: 0;
+  font-size: clamp(0.82rem, 1.2vw, 0.98rem);
+  line-height: 1.55;
+  text-align: left;
+  color: rgba(245, 243, 240, 0.65);
 }
 
-.navbar-workshop-toggle .form-check-input {
-  cursor: pointer;
+.site-footer__credit a {
+  color: var(--warm-white);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 0;
+  transition: color var(--transition-fast);
 }
 
-.navbar-workshop-toggle .form-check-label {
-  cursor: pointer;
-  margin-left: 0.5rem;
-  font-size: 0.9rem;
-  color: var(--bs-navbar-color);
+.site-footer__credit a:hover {
+  color: var(--golden-clay);
 }
-
-
-/*****************************************************************************/
-/*
-/* SMALL SCREEN
-/*
-/*****************************************************************************/
 
 @media (max-width: 768px) {
-  .navbar-workshop-toggle {
-    padding: 0.5rem 1rem;
-    border-top: 1px solid var(--border-light);
+  .institution-strip {
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.58rem;
+  }
+
+  .site-footer__inner {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }

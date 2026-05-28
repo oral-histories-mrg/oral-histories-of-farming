@@ -1,0 +1,220 @@
+/*****************************************************
+FARMER PROFILES — loaded only on pages with farmer-name frontmatter
+*****************************************************/
+
+/* Narrow reading column for profile narrative */
+.container {
+  max-width: 45rem;
+  padding: 0 var(--spacing-md);
+  margin: auto;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  line-height: 1.4em;
+}
+
+.container p {
+  line-height: 1.6em;
+}
+
+.container h2 {
+  clear: both;
+  margin-top: var(--spacing-lg);
+  padding-bottom: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.45rem, 3vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--golden-clay-dark);
+  border-bottom: 2px solid rgba(61, 43, 26, 0.75);
+}
+
+.container h3 {
+  margin-top: var(--spacing-md);
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.2;
+  color: var(--sage-deep);
+}
+
+.container h4 {
+  margin-top: var(--spacing-sm);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/*****************************************************
+FARMER METADATA CARD
+*****************************************************/
+
+.farmer-metadata {
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-lg);
+  font-family: var(--font-body);
+  color: var(--text-body);
+  background:
+    linear-gradient(135deg, rgba(245, 236, 224, 0.96), rgba(255, 255, 255, 0.82)),
+    var(--bg-card);
+  border: 1px solid rgba(184, 149, 106, 0.38);
+  border-top: 4px solid var(--golden-clay);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+.farmer-metadata__eyebrow {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--golden-clay-dark);
+}
+
+.farmer-metadata__name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.farmer-metadata h2 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.7rem, 5vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--golden-clay-dark);
+}
+
+
+.farmer-metadata__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem 1rem;
+  margin: 0;
+}
+
+.farmer-metadata__item {
+  min-width: 0;
+  padding-top: 0.5rem;
+}
+
+.farmer-metadata__item--wide {
+  grid-column: 1 / -1;
+}
+
+.farmer-metadata dt {
+  margin-bottom: 0.18rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.farmer-metadata dd {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  color: var(--text-body);
+}
+
+.farmer-metadata__col-left  { grid-column: 1; }
+.farmer-metadata__col-right { grid-column: 2; }
+
+.farmer-metadata__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.7rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-on-dark);
+  text-decoration: none;
+  background: var(--sage-deep);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  transition: background-color var(--transition-fast);
+}
+
+.farmer-metadata__link:hover,
+.farmer-metadata__link:focus {
+  color: var(--text-on-dark);
+  background: var(--golden-clay-dark);
+}
+
+/*****************************************************
+FIGURES — float layout and image treatment
+*****************************************************/
+
+figure.right {
+  float: right;
+  margin: 0.25rem 0 var(--spacing-md) var(--spacing-md);
+  clear: right;
+}
+
+figure.left {
+  float: left;
+  margin: 0.25rem var(--spacing-md) var(--spacing-md) 0;
+  clear: left;
+}
+
+figure.center {
+  float: none;
+  clear: both;
+  display: block;
+  margin: var(--spacing-md) auto;
+}
+
+figure img {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+
+figcaption {
+  margin-top: 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--text-muted);
+  text-align: left;
+}
+
+figcaption a {
+  border-bottom: none;
+  color: var(--text-muted);
+}
+
+/*****************************************************
+RESPONSIVE
+*****************************************************/
+
+@media (max-width: 768px) {
+  .farmer-metadata {
+    padding: var(--spacing-md);
+  }
+
+  .farmer-metadata__grid {
+    grid-template-columns: 1fr;
+  }
+
+  figure.right,
+  figure.left {
+    float: none;
+    width: 100% !important;
+    margin: var(--spacing-md) 0;
+  }
+}

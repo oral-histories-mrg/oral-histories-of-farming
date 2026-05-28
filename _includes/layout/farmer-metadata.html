@@ -1,0 +1,78 @@
+{% assign farmer_name = page["farmer-name"] %}
+{% assign farm = page.farm %}
+{% assign interviewer = page.interviewer %}
+{% assign webpage_authors = page["webpage-authors"] %}
+{% assign interview_date = page["interview-date"] %}
+{% assign webpage_date = page["webpage-date"] %}
+{% assign repository_link = page["repository-link"] %}
+{% assign webpage_class = page["webpage-class"] %}
+{% assign interview_class = page["interview-class"] %}
+
+{% if farmer_name or farm or interviewer or webpage_authors or interview_date or webpage_date or repository_link or webpage_class or interview_class %}
+<section class="farmer-metadata" aria-labelledby="farmer-metadata-heading">
+
+  {% if farm %}<p class="farmer-metadata__eyebrow">{{ farm }}</p>{% endif %}
+  <div class="farmer-metadata__name-row">
+    <h2 id="farmer-metadata-heading">
+      {% if farmer_name %}{{ farmer_name }}{% else %}{{ page.title }}{% endif %}
+    </h2>
+    {% if repository_link %}
+    <a class="farmer-metadata__link" href="{{ repository_link }}">
+      <i class="fa-solid fa-box-archive" aria-hidden="true"></i> View repository record
+    </a>
+    {% endif %}
+  </div>
+
+  <dl class="farmer-metadata__grid">
+
+    {% if interviewer %}
+    <div class="farmer-metadata__item farmer-metadata__col-left">
+      <dt>Interviewer</dt>
+      <dd>{{ interviewer }}</dd>
+    </div>
+    {% endif %}
+
+    {% if webpage_authors %}
+    <div class="farmer-metadata__item farmer-metadata__col-right">
+      <dt>Webpage Authors</dt>
+      <dd>
+        {% if webpage_authors.first %}
+          {{ webpage_authors | join: ", " }}
+        {% else %}
+          {{ webpage_authors }}
+        {% endif %}
+      </dd>
+    </div>
+    {% endif %}
+
+    {% if interview_date %}
+    <div class="farmer-metadata__item farmer-metadata__col-left">
+      <dt>Interview Date</dt>
+      <dd>{{ interview_date | date: "%B %-d, %Y" }}</dd>
+    </div>
+    {% endif %}
+
+    {% if webpage_date %}
+    <div class="farmer-metadata__item farmer-metadata__col-right">
+      <dt>Webpage Date</dt>
+      <dd>{{ webpage_date | date: "%B %-d, %Y" }}</dd>
+    </div>
+    {% endif %}
+
+    {% if interview_class %}
+    <div class="farmer-metadata__item farmer-metadata__col-left">
+      <dt>Interview Class</dt>
+      <dd>{{ interview_class }}</dd>
+    </div>
+    {% endif %}
+
+    {% if webpage_class %}
+    <div class="farmer-metadata__item farmer-metadata__col-right">
+      <dt>Webpage Class</dt>
+      <dd>{{ webpage_class }}</dd>
+    </div>
+    {% endif %}
+
+  </dl>
+</section>
+{% endif %}

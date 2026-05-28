@@ -1,0 +1,36 @@
+{% assign histories = include.histories | sort_natural: "farmer-sort-name" %}
+
+<div class="oral-history-list">
+  {% for history in histories %}
+  {% assign farmer_name = history["farmer-name"] | default: history.title %}
+  {% assign sort_name = history["farmer-sort-name"] | default: farmer_name %}
+  {% assign sort_name_parts = sort_name | split: "," %}
+  {% assign surname = sort_name_parts[0] | strip %}
+  {% assign given_name = sort_name_parts[1] | default: "" | strip %}
+  {% assign farm = history.farm %}
+  {% assign repository_link = history["repository-link"] %}
+
+  {% if farmer_name %}
+  <article class="oral-history-list__row">
+    <div class="oral-history-list__identity">
+      <h3 class="oral-history-list__name"><span class="oral-history-list__surname">{{ surname }}</span>{% if given_name %}<span class="oral-history-list__given">, {{ given_name }}</span>{% endif %}</h3>
+    </div>
+
+    <div class="oral-history-list__farm-cell">
+      {% if farm %}
+      <span class="oral-history-list__farm">{{ farm }}</span>
+      {% endif %}
+    </div>
+
+    <div class="oral-history-list__links" aria-label="Links for {{ farmer_name }}">
+      <a href="{{ site.baseurl }}{{ history.url }}">Profile</a>
+      {% if repository_link %}
+      <a href="{{ repository_link }}">Oral history</a>
+      {% else %}
+      <span>Oral history</span>
+      {% endif %}
+    </div>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

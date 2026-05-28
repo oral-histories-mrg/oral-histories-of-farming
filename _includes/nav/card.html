@@ -1,0 +1,41 @@
+{% assign card = include.card %}
+{% assign card_href = card.link | default: card.url %}
+{% assign card_image = card.thumbnail | default: card.image %}
+{% assign card_dir = card.dir | default: '' %}
+{% assign card_href_first_char = card_href | strip | slice: 0, 1 %}
+
+{% if card.title %}
+<div class="card v-card">
+  {% if card_href %}
+  {% if card_href contains 'http' %}
+  <a href="{{ card_href }}">
+  {% elsif card_href_first_char == '/' %}
+  <a href="{{ site.baseurl }}{{ card_href }}">
+  {% else %}
+  <a href="{{ site.baseurl }}{{ card_href }}">
+  {% endif %}
+  {% endif %}
+
+    {% if card_image %}
+    {% capture card_image_url %}
+      {% include images/image-path.html image-path=card_image page-dir=card_dir %}
+    {% endcapture %}
+    {% assign card_image_url = card_image_url | strip %}
+    <img src="{{ card_image_url }}" class="card-img-top" alt="{{ card.alt | default: card.title }}">
+    {% endif %}
+
+    <div class="card-body">
+      <h3 class="card-title">{{ card.title }}</h3>
+      {% if card.summary %}
+      <p class="card-text">{{ card.summary }}</p>
+      {% endif %}
+      {% if card.description %}
+      <p class="card-detail">{{ card.description }}</p>
+      {% endif %}
+    </div>
+
+  {% if card_href %}
+  </a>
+  {% endif %}
+</div>
+{% endif %}

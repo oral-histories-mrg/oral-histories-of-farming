@@ -32,27 +32,14 @@
 
   <!-- Base CSS -->
   <link href="{{site.baseurl}}/assets/css/base.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/cards.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/backgrounds.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/typography.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/nav.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/nav-left.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/nav-profile.css" rel="stylesheet">
-  
-  <!--  
-    Alternate theme CSS that overrides bases above. 
-    To use a new CSS file, remove the comment marks before and after the line below
-  -->        
-  
-  <!-- <link href="{{site.baseurl}}/assets/css/dark-energy.css" rel="stylesheet"> -->
+  <link href="{{site.baseurl}}/assets/css/components.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/backgrounds.css" rel="stylesheet">
 
-  <!-- scrollstory layout CSS 
-    To differentiate scrollstory pages from regular pages, we use a special layout value in the YAML front matter
-    and load the scrollstory.css file.
-  -->
-
-  {% if page.layout == 'scrollstory' %}
-  <link href="{{site.baseurl}}/assets/css/scrollstory.css" rel="stylesheet">
+  <!-- farmer profile CSS — loaded for any page with a farmer-name field -->
+  {% if page.farmer-name %}
+  <link href="{{site.baseurl}}/assets/css/profiles.css" rel="stylesheet">
   {% endif %}
 
   <!-- page specific CSS -->

@@ -1,23 +1,43 @@
-<!-- 
- This include file is called from the base layout (_layouts/base.html)
- It is used to display the header of essays, which includes the title, subtitle, and an optional image.
- The YML header of the page should include:
-   - title: The title of the essay
-   - subtitle: The subtitle of the essay (optional)
-   - image-url: The URL of the header image (optional)
-   - abs-image-url: An absolute URL for the image (optional)
- -->
-
 {% capture img_url %}
 {% include images/image-path.html image-path=include.image-path %}
 {% endcapture %}
 
 {% assign img_url = img_url | strip %}
+{% assign header_tier = include.tier | default: 'hero' %}
+{% assign header_filter = include.filter | default: 'photo' %}
 
-<div class="jumbotron" style="      
-      height: {{ include.height | default: '40vh' }}; 
-      background-image: url('{{ img_url }}');
-      background-position: {{ include.background-position }};">
-    <h1 id="page-title">{{ include.title}}</h1>
-    <h2 id="page-subtitle">{{ include.text }}</h2>
+<div class="header-studio header-studio--{{ header_tier }}"{% if include.height %} style="height: {{ include.height }};"{% endif %}>
+  {% if img_url != '' %}
+  <div class="header-studio-bg header-studio-bg--{{ header_filter }}" style="background-image: url('{{ img_url }}'); background-position: {{ include.background-position | default: 'center right' }};{% if include.opacity %} opacity: {{ include.opacity }};{% endif %}{% if include.zoom %} background-size: {{ include.zoom }};{% endif %}"></div>
+  {% endif %}
+
+  <div class="header-studio-grid"></div>
+
+  {% if include.caption %}
+  <div class="header-studio-caption">
+    {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if include.image-link %}<a href="{{ include.image-link }}" target="_blank" rel="noopener" aria-label="Image source">source</a>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="header-studio-content">
+    {% if include.eyebrow %}
+    <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
+    {% endif %}
+
+    {% if include.title %}
+    <h1>{{ include.title }}</h1>
+    {% endif %}
+
+    {% if include.divider %}
+    <div class="header-studio-divider">
+      <div class="header-studio-divider-line"></div>
+      <span>{{ include.divider }}</span>
+      <div class="header-studio-divider-line"></div>
+    </div>
+    {% endif %}
+
+    {% if include.subtitle %}
+    <p>{{ include.subtitle }}</p>
+    {% endif %}
+  </div>
 </div>

@@ -24,21 +24,21 @@ h1, h2, h3, h4, h5 {
 
 /* Heading color hierarchy - variety with restraint */
 h1 {
-  color: var(--golden-clay);  /* Warm accent for top-level emphasis */
-  font-weight: 700;           /* Bolder for more presence */
+  color: var(--golden-clay);
+  font-weight: 700;
 }
 
 h2 {
-  color: var(--sage);         /* Mid-tone sage - softer contrast */
+  color: var(--golden-clay-dark);
   font-weight: 600;
 }
 
 h3 {
-  color: var(--sage-deep);    /* Deep sage for subsections */
+  color: #4a3220;
 }
 
 h4 {
-  color: var(--sage-dark);    /* Darker for minor headings */
+  color: var(--text-body);
 }
 
 h5 {
@@ -301,18 +301,35 @@ BLOCKQUOTE
 *****************************************************/
 
 blockquote {
-  /* Box Model */
-  max-width: 80%;
-  margin: var(--spacing-sm) auto;
-  padding: var(--spacing-xs);
-  
-  /* Typography */
-  font-size: 120%;
+  position: relative;
+  max-width: 88%;
+  margin: var(--spacing-lg) auto;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
   font-style: italic;
-  quotes: """ """ "'" "'";
-  
-  /* Visual */
-  border-left: 4px solid var(--text-muted);
+  line-height: 1.7;
+  color: #4a3220;
+  background: rgba(221, 208, 188, 0.28);
+  border: none;
+  border-left: 4px solid var(--golden-clay);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+blockquote::before {
+  content: '\201C';
+  display: block;
+  margin-bottom: 0.1rem;
+  font-family: Georgia, var(--font-serif);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--golden-clay);
+  font-style: normal;
+}
+
+blockquote p {
+  margin: 0;
+  text-align: left;
 }
 
 
@@ -322,24 +339,21 @@ PULLQUOTES
 *****************************************************/
 
 .pullquote {
-  /* Box Model */
   margin: 1em auto;
-  padding: 1em;
-
-  /* Typography */
-  color: var(--text-body);
-
-  /* Visual */
-  border-top: 4px solid var(--golden-clay);
-  border-bottom: 4px solid var(--golden-clay);
+  padding: 1.2em 1.4em;
+  color: #4a3220;
+  background: rgba(221, 208, 188, 0.22);
+  border-top: 3px solid var(--golden-clay);
+  border-bottom: 3px solid var(--golden-clay);
 }
 
 .pullquote p {
-  /* Typography */
-  font-family: var(--font-body);
-  font-size: 1.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-style: italic;
   line-height: 1.5;
   text-align: left;
+  margin: 0;
 }
 
 

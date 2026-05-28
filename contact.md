@@ -1,33 +1,26 @@
 ---
 title: Contact Us
-homepage: TRUE 
+homepage: TRUE
 layout: base
 position: 1
 summary: ""
 thumbnail: assets/images/Plants.jpg
 date: 2026-01-20
+header-image: assets/images/Plants.jpg
+header-title: Contact Us
+header-subtitle: Questions about the project, interviews, archives, or student work.
+header-height: 45vh
+header-position: center center
+header-zoom: cover
+header-tier: section
 ---
 
+<h1 class="sr-only">Contact Us</h1>
 
-# Contact Us 
-
----
-<a href="mailto:marygoldwd@unm.edu">
-  <img src="assets/images/profile/marygold-walsh-dilley.jpg" alt="Description of image">
-</a>
-
-**Dr. Marygold Walsh-Dilley**, University of New Mexico <br>
-*Associate Professor, Department of Geography & Environmental Studies*  <br>
-<a href="mailto:marygoldwd@unm.edu"> Email Marygold</a>
+For questions about the project, interviews, archives, or student work, contact a member of the project team.
 
 
-<a href="mailto:jkelleycogdell@unm.edu">
-  <img src="assets/images/profile/jacqueline-kelley-cogdell.jpg" width="50%" alt="Description of image">
-</a>
+{% assign about_page = site.pages | where: "path", "about.md" | first %}
+{% assign contacts = about_page.team-members | where: "contact", true %}
 
-**Jacqueline Kelley-Cogdell**, University of New Mexico  <br>
-*MS Graduate Student, Department of Geography & Environmental Studies* <br>
-<a href="mailto:jkelleycogdell@unm.edu"> Email Jacqueline</a>
-
----
-
+{% include nav/contact-list.html contacts=contacts %}

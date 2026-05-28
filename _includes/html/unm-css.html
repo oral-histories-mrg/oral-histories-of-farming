@@ -1,0 +1,6 @@
+<link href="//webcore.unm.edu/v2/css/unm-styles.min.css" rel="stylesheet" />
+<link href="https://www.unm.edu/assets/css/site-styles.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="{{ '/assets/css/unm-compat.css' | relative_url }}" rel="stylesheet">
+{% if page.css %}
+<link href="{{ '/assets/css/' | append: page.css | relative_url }}" rel="stylesheet">
+{% endif %}
