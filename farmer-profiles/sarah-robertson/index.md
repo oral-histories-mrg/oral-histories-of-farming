@@ -10,7 +10,7 @@ webpage-authors:
     - Shea Dolan
 interview-date: 2025-11-20
 webpage-date: 2025-05-12
-repository-link: https://digitalrepository.unm.edu/cgi/siteview.cgi//oralhistoriesoffarming/5
+repository-link: https://digitalrepository.unm.edu/oralhistoriesoffarming/5/
 webpage-class: SUST-364, Spring 2026 
 interview-class: GEOG-589, Fall 2025
 layout: base

@@ -9,7 +9,7 @@ webpage-authors:
     - Monic Robles
 interview-date: 2025-11-18
 webpage-date: 2026-05-12
-repository-link: https://digitalrepository.unm.edu/cgi/siteview.cgi//oralhistoriesoffarming/10
+repository-link: https://digitalrepository.unm.edu/oralhistoriesoffarming/10/
 webpage-class: SUST-364, Spring 2026 
 interview-class: GEOG-589, Fall 2025
 layout: base

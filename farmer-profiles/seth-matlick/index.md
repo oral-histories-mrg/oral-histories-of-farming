@@ -9,7 +9,7 @@ webpage-authors:
     - Minnie Metcalfe
 interview-date: 2025-12-23
 webpage-date: 2026-05-12 
-repository-link: https://digitalrepository.unm.edu/cgi/siteview.cgi//oralhistoriesoffarming/4
+repository-link: https://digitalrepository.unm.edu/oralhistoriesoffarming/4/
 webpage-class: SUST-364, Spring 2026
 interview-class: GEOG-589, Fall 2025
 layout: base

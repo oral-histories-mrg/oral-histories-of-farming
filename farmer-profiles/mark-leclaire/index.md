@@ -10,7 +10,7 @@ webpage-class: SUST-364, Spring 2026
 interview-class: GEOG-589, Fall 2025
 interview-date: 2025-11-20
 webpage-date: 2026-05-12
-repository-link: 
+repository-link: https://digitalrepository.unm.edu/oralhistoriesoffarming/7/
 layout: base
 header-image: images/atrisco-farm.jpg
 thumbnail: images/mark-leclaire.jpg

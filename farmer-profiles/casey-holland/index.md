@@ -9,7 +9,7 @@ webpage-authors:
     - Eric Truong
 interview-date: 2026-01-09
 webpage-date: 2026-05-12
-repository-link: https://digitalrepository.unm.edu/cgi/siteview.cgi//oralhistoriesoffarming/6
+repository-link: https://digitalrepository.unm.edu/oralhistoriesoffarming/6/
 webpage-class: SUST-364, Spring 2026 
 interview-class: GEOG-589, Fall 2025
 layout: base
