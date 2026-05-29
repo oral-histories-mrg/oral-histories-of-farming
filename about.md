@@ -4,7 +4,7 @@ layout: base
 position: 4
 header-image: assets/images/loose leaf pond.jpeg
 header-title: About the Project
-header-subtitle: Oral histories from the Middle Rio Grande farming community.
+header-subtitle: ""
 header-height: 45vh
 header-position: center 60%
 header-zoom: cover
