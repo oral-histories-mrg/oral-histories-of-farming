@@ -9,38 +9,6 @@ header-height: 45vh
 header-position: center 60%
 header-zoom: cover
 header-tier: section
-team-members:
-  - title: Dr. Marygold Walsh-Dilley
-    summary: University of New Mexico
-    description: Team Lead -- Associate Professor, Department of Geography and Environmental Studies
-    thumbnail: assets/images/profile/marygold-walsh-dilley.jpg
-    url: https://geography.unm.edu/people/faculty/faculty-profiles/marygold-walsh-dilley.html
-    email: marygoldwd@unm.edu
-    contact: true
-  - title: Casey Holland
-    summary: Bernalillo County - Grow the Growers
-    thumbnail: assets/images/profile/casey.jpg
-    url: https://quiviracoalition.org/casey-holland-radio/
-    email: chispasfarms@gmail.com
-  - title: Sayrah Namaste
-    summary: American Friends Service Committee - New Mexico
-    description: Co-Program Director
-    thumbnail: assets/images/profile/sayrah-namaste.jpg
-    url: https://afsc.org/index.php/profile/sayrah-namaste
-    email: newmexico@afsc.org
-  - title: Jacqueline Kelley-Cogdell
-    summary: University of New Mexico
-    description: Project Research Assistant -- MS Graduate Student, Department of Geography and Environmental Studies
-    thumbnail: assets/images/profile/jacqueline-kelley-cogdell.jpg
-    url: https://www.linkedin.com/in/jacqueline-kelley-cogdell-b3b450173
-    email: jkelleycogdell@unm.edu
-    contact: true
-  - title: Jessica Rowland
-    summary: University of New Mexico
-    description: Senior Lecturer II and Associate Director, Sustainability Studies Program
-    thumbnail: assets/images/profile/jessica.jpeg
-    url: https://sust.unm.edu/about/people/jessica-rowland.html
-    email: jrowland@unm.edu
 ---
 
 ### Overview
