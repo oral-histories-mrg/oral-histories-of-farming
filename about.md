@@ -60,7 +60,9 @@ This project collects stories and personal histories of farming within the Middl
 - **February – August 2025** – Relationship building and project development. Associate Professor Marygold Walsh-Dilley, who teaches research methods in the Department of Geography & Environmental Studies, begins to develop a community-engaged project that could be undertaken by students in her classes and secures funding for the project through the Intermountain West Transformation Network.
 We build our network, bringing in Sayrah Namaste from AFSC-NM and Jessica Rowland and Tomek Falkowski, faculty at UNM. 
 
-- **August – December 2025** – Study design and initial oral history collection. Students in the class GEOG 589 Qualitative Methods work with community partners to develop the project, ultimately collecting and transcribing 11 oral histories of farmers in the region. January – May 2026 – Project team establishes the <a href = "https://digitalrepository.unm.edu/oralhistoriesoffarming/">Oral Histories of Farming along the Middle Rio Grande </a> archive in the Digital Repository at the University of New Mexico Libraries. Students in SUST 425 and UHON 301 use the oral histories to generate Farmer Profiles highlighting local food heroes.
+- **August – December 2025** – Study design and initial oral history collection. Students in the class GEOG 589 Qualitative Methods work with community partners to develop the project, ultimately collecting and transcribing 11 oral histories of farmers in the region. 
+
+- **January – May 2026** – Project team establishes the <a href = "https://digitalrepository.unm.edu/oralhistoriesoffarming/">Oral Histories of Farming along the Middle Rio Grande </a> archive in the Digital Repository at the University of New Mexico Libraries. Students in SUST 425 and UHON 301 use the oral histories to generate Farmer Profiles highlighting local food heroes.
 
 - **Fall 2026** – second round of oral histories collection in GEOG 589: Qualitative Methods
 
