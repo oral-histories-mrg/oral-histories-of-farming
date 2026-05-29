@@ -5,8 +5,8 @@ farmer-sort-name: Robertson, Mark
 farm: Loose Leaf Farm
 interviewer: Esther Hewitt
 webpage-authors: 
-    - tbd 
-    - tbd
+    - Maggie Berman
+    - Noah Lujan 
 webpage-class: SUST-364, Spring 2026
 interview-class: GEOG-589, Fall 2025
 interview-date: 2025-11-20
