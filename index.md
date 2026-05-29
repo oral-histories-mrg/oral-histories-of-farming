@@ -3,7 +3,7 @@ title: oral histories of farming along the middle rio grande
 layout: base
 date: 2026-02-03
 header-image: assets/images/students-goats-chispas.jpg
-header-title: Oral Histories of Farming along the Middle Rio Grande.
+header-title: Oral Histories of Farming along the Middle Rio Grande
 header-subtitle: ""
 header-height: 70vh
 header-position: center 45%
