@@ -12,7 +12,7 @@ header-tier: section
 team-members:
   - title: Dr. Marygold Walsh-Dilley
     summary: University of New Mexico
-    description: Team Lead; Associate Professor, Department of Geography and Environmental Studies
+    description: Team Lead -- Associate Professor, Department of Geography and Environmental Studies
     thumbnail: assets/images/profile/marygold-walsh-dilley.jpg
     url: https://geography.unm.edu/people/faculty/faculty-profiles/marygold-walsh-dilley.html
     email: marygoldwd@unm.edu
@@ -30,7 +30,7 @@ team-members:
     email: newmexico@afsc.org
   - title: Jacqueline Kelley-Cogdell
     summary: University of New Mexico
-    description: Project Research Assistant; MS Graduate Student, Department of Geography and Environmental Studies
+    description: Project Research Assistant -- MS Graduate Student, Department of Geography and Environmental Studies
     thumbnail: assets/images/profile/jacqueline-kelley-cogdell.jpg
     url: https://www.linkedin.com/in/jacqueline-kelley-cogdell-b3b450173
     email: jkelleycogdell@unm.edu
