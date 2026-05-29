@@ -18,7 +18,7 @@ header-tier: section
 <h1 class="sr-only">Contact Us</h1>
 
 
-{% assign about_page = site.pages | where: "path", "about.md" | first %}
+{% assign about_page = site.pages | where: "path", "research-team.md" | first %}
 {% assign contacts = about_page.team-members | where: "contact", true %}
 
 {% include nav/contact-list.html contacts=contacts %}
