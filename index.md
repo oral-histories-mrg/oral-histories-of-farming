@@ -4,7 +4,7 @@ layout: base
 date: 2026-02-03
 header-image: assets/images/students-goats-chispas.jpg
 header-title: Oral Histories of Farming along the Middle Rio Grande.
-header-subtitle: Oral histories from growers, students, and community partners in the Middle Rio Grande.
+header-subtitle: ""
 header-height: 70vh
 header-position: center 45%
 header-zoom: cover
