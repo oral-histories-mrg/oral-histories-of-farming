@@ -16,7 +16,8 @@ header-tier: section
 ---
 
 ---
-Oral history transcripts and audio are permanently preserved in the Oral Histories of Farming along the Middle Rio Grande Collection in the UNM Digital Repository.
+Oral history transcripts and audio are permanently preserved in the Oral Histories of Farming along the Middle Rio Grande Collection in the UNM Digital Repository. <br>
+
 ---
 <h1 class="sr-only">Oral Histories</h1>
 
