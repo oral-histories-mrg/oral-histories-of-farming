@@ -30,25 +30,3 @@ header-caption: UNM students visit Chispas Farm, Fall 2025
     <span>About the project</span>
   </a>
 </section>
-
-<section class="home-themes">
-  <h2>What These Stories Hold</h2>
-  <div class="home-panel-grid">
-    <article>
-      <h3>Place-Based Knowledge</h3>
-      <p>Farmers describe what works here: water limits, soil care, climate pressure, seed choices, market timing, and the patient skill of learning from a particular field over many seasons. Their stories treat farming as observation, repair, experiment, and daily attention to place.</p>
-    </article>
-    <article>
-      <h3>Community Infrastructure</h3>
-      <p>The interviews follow relationships among farms, farmers markets, training programs, families, restaurants, mutual aid networks, and local organizations. They show that local food systems are built not only by individual growers, but by webs of trust, labor, mentorship, and shared problem-solving.</p>
-    </article>
-    <article>
-      <h3>Public Memory</h3>
-      <p>Students help transform oral histories into public-facing profiles so community knowledge can circulate beyond the archive. These pages are not just summaries of interviews; they are small acts of public history that make farming experience visible, searchable, and teachable.</p>
-    </article>
-    <article>
-      <h3>Built With Community</h3>
-      <p>The project began through conversations among the UNM Food Systems Collaborative and community partners. Students interview experienced growers, archive the recordings, and build interpretive profiles that invite readers into the lived history of farming in central New Mexico.</p>
-    </article>
-  </div>
-</section>
