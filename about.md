@@ -53,11 +53,9 @@ This project collects stories and personal histories of farming within the Middl
 
 2) To provide opportunities for students to learn about and be connected with their local community and food system, and to learn and practice community-engaged research methods.
 
-###Timeline
+### Timeline
 
-- **February 2025** -- UNM Food Systems Summit. Casey Holland and other practitioners identify storytelling as a key way that farmers learn from each other and build resilience to
-
-the challenges of farming. Casey suggests that UNM researchers and students could take an active role in collecting, archiving, and making available these stories.
+- **February 2025** -- UNM Food Systems Summit. Casey Holland and other practitioners identify storytelling as a key way that farmers learn from each other and build resilience to the challenges of farming. Casey suggests that UNM researchers and students could take an active role in collecting, archiving, and making available these stories.
 
 - **February – August 2025** – Relationship building and project development. Associate Professor Marygold Walsh-Dilley, who teaches research methods in the Department of Geography & Environmental Studies , begins to develop a community-engaged project that could be undertaken by students in her classes. We build our network, bringing in Sayrah Namaste from AFSC-NM and Jessica Rowland and Tomek Falkowski, faculty at UNM.
 
@@ -78,7 +76,7 @@ After the interview, interviewers transcribe and loosely edit the transcript for
 
 Suggested citation:
 
-Holland, Casey and Olivia Kelly. 2026. “Casey Holland”. Oral Histories of Farming Along the Middle Rio Grande. UNM Digital Repository. https://digitalrepository.unm.edu/oralhistoriesoffarming/6/.
+*Holland, Casey and Olivia Kelly. 2026. “Casey Holland”. Oral Histories of Farming Along the Middle Rio Grande. UNM Digital Repository. https://digitalrepository.unm.edu/oralhistoriesoffarming/6/.*
 
 
 ## Team Members
