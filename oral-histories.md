@@ -16,8 +16,8 @@ header-tier: section
 ---
 
 ### Overview
-Oral history transcripts and audio are permanently preserved in the<a href = "https://digitalrepository.unm.edu/oralhistoriesoffarming/">Oral Histories of Farming along the Middle Rio Grande Collection</a> in the UNM Digital Repository. <br>
-
+Oral history transcripts and audio are permanently preserved in the <a href = "https://digitalrepository.unm.edu/oralhistoriesoffarming/">Oral Histories of Farming along the Middle Rio Grande Collection</a> in the UNM Digital Repository. <br>
+---
 <h1 class="sr-only">Oral Histories</h1>
 
 {% assign farmer_pages = site.pages | where_exp: "p", "p.path contains 'farmer-profiles/'" | where_exp: "p", "p.path != 'farmer-profiles/index.md'" %}
