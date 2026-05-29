@@ -35,7 +35,7 @@ header-caption: UNM students visit Chispas Farm, Fall 2025
   </a>
   <a href="contact" class="home-image-link">
     <img src="assets/images/green-house.jpeg" alt="Greenhouse at Entropy Farms">
-    <span>Contact the research team</span>
+    <span>Contact us</span>
   </a>
   
  
