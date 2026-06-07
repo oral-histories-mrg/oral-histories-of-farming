@@ -13,7 +13,7 @@ header-tier: section
 
 ### Overview
 
-This project collects stories and personal histories of farming within the Middle Rio Grande region of New Mexico. It is elaborated in collaboration between the UNM Food Systems Collaborative, American Friends Service Committee-New Mexico, local farmers, and the convergent curriculum group of the Transformation Network. Casey Holland elaborated the idea for the project during the Food Systems Summit held in February 2025 and remains a close collaborator.
+This project collects stories and personal histories of farming within the Middle Rio Grande region of New Mexico. It is a collaboration between the UNM Food Systems Collaborative, American Friends Service Committee-New Mexico, local farmers, and the Convergence Curriculum Working Group of the Transformation Network. The first seeds of the project were planted by local farmer Casey Holland during the Food Systems Summit in February 2025, and they remain a close collaborator.
 
 ### Goals
 
