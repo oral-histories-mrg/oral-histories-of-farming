@@ -25,8 +25,7 @@ This project collects stories and personal histories of farming within the Middl
 
 - **February 2025** -- UNM Food Systems Summit. Casey Holland and other practitioners identify storytelling as a key way that farmers learn from each other and build resilience to the challenges of farming. Casey suggests that UNM researchers and students could take an active role in collecting, archiving, and making available these stories.
 
-- **February – August 2025** – Relationship building and project development. Associate Professor Marygold Walsh-Dilley, who teaches research methods in the Department of Geography & Environmental Studies, begins to develop a community-engaged project that could be undertaken by students in her classes and secures funding for the project through the Intermountain West Transformation Network.
-We build our network, bringing in Sayrah Namaste from AFSC-NM and Jessica Rowland and Tomek Falkowski, faculty at UNM. 
+- **February – August 2025** – Relationship building and project development. Associate Professor Marygold Walsh-Dilley, who teaches research methods in the Department of Geography & Environmental Studies, begins to develop a community-engaged project that could be undertaken by students in her classes and secures funding for the project through the <a href = "https://transformimw.unm.edu/">Intermountain West Transformation Network</a>. We build our network, bringing in Sayrah Namaste from AFSC-NM and Jessica Rowland and Tomek Falkowski, faculty at UNM. 
 
 - **August – December 2025** – Study design and initial oral history collection. Students in the class GEOG 589 Qualitative Methods work with community partners to develop the project, ultimately collecting and transcribing 11 oral histories of farmers in the region. 
 
@@ -45,6 +44,13 @@ We use oral history as method. Oral history prioritizes the stories and voice of
 
 After the interview, interviewers transcribe and loosely edit the transcript for readability. The transcript is returned to the narrator, who can request further edits if they desire. Approved transcripts are included in the archive, along with the original audio. These archives are public. Please recognize the narrator and interviewer as the co-authors of the oral history transcript.
 
-Suggested citation:
 
-*Holland, Casey and Olivia Kelly. 2026. “Casey Holland”. Oral Histories of Farming Along the Middle Rio Grande. UNM Digital Repository. https://digitalrepository.unm.edu/oralhistoriesoffarming/6/.*
+Suggested citation for individual oral history transcript:
+
+Holland, Casey and Olivia Kelly. 2026. “Casey Holland”. *Oral Histories of Farming Along the Middle Rio Grande*. UNM Digital Repository. https://digitalrepository.unm.edu/oralhistoriesoffarming/6/.
+
+Suggested citation for individual farmer profile:
+
+Holland, Casey, Olivia Kelley, Arwen R. Rocha, and Eric Truong. 2026. "Profile of Casey Holland.” *Oral Histories of Farming Along the Middle Rio Grande.* https://oral-histories-mrg.github.io/oral-histories-of-farming/farmer-profiles/casey-holland/
+
+
