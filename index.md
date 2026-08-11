@@ -17,7 +17,7 @@ header-caption: UNM students visit Chispas Farm, Fall 2025
 </section>
 
 <section class="home-image-band" aria-label="Featured paths into the project">
-  <a href="{{ site.baseurl }}about" class="home-image-link">
+  <a href="about" class="home-image-link">
     <img src="farmer-profiles/mark-robertson/images/produce-loose-leaf.png" alt="Fresh produce from Loose Leaf Farm">
     <span>About the project</span>
   </a>
