@@ -27,7 +27,7 @@ tags:
 # Background
 Fidel González is indigenous (Otomi) and grew up in Mexico City with his mom and his four brothers.  He moved to the United States when he was 19 years old with the intention of working for a year to save money to travel to India. During his years in Mexico City, he became part of the Hare Krishna movement. It was in the temples in Mexico City that Fidel fell in love with music. While he did eventually travel to India, he traveled much later in his life. He moved from Mexico City to Texas for a short time and then lived in New York City for 30 years. In 2001, when his truck broke down in Albuquerque, he and his girlfriend at the time decided to stay. It was once he moved to Albuquerque that he found agriculture through Pablo Lopez. 
 
->One day…Pablo Lopez, he's an Apache ... He said, ‘I know about something, but I don't know if you will like it or not.’ I said, ‘What is it?’ And he said "Agriculture. Farming". 
+>One day…Pablo Lopez, he's an Apache ... He said, "I know about something, but I don't know if you will like it or not." I said, ‘What is it?’ And he said "Agriculture. Farming". 
 
 Today, Fidel farms in the South Valley of Albuquerque. 
 
