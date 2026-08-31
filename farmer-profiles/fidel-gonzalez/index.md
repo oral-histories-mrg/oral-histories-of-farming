@@ -32,15 +32,12 @@ Fidel González is indigenous (Otomi) and grew up in Mexico City with his mom an
 Today, Fidel farms in the South Valley of Albuquerque. 
 
 # The Arts, Religion, and Agriculture 
-Fidel first played the guitar when he was six or seven years old. Thanks to his mom and the support of his community, he bought his own guitar when he 14. His mom joyfully supported his dreams of being a musician. 
->I think she was wondering if one of her kids would do something like that. Because she was so happy  
-
-Fidel’s ties his love of music and his spirituality directly to agriculture.These things together make Fidel feel human. 
+Fidel first played the guitar when he was six or seven years old. Thanks to his mom and the support of his community, he bought his own guitar when he 14. His mom joyfully supported his dreams of being a musician. In the audio clip below, Fidel’s ties his love of music and his spirituality directly to agriculture. These things together make Fidel feel human. 
 
 {% include media/audio.html src="audio/fidel_gonzalez_1.mp3" %}
 
-# Agri-Cultura Network and Learning
-Fidel learned farming from Don Bustos through the Agri-Cultura Network, a group that Fidel named. When Fidel started the program it was a three-years, but in the second and third years, the more experienced trainees helped teach the first-years. Fidel’s appreciation for Don Bustos is clear. 
+# Agri-Cultura Network and Mentorship
+Fidel learned farming from Don Bustos through the Agri-Cultura Network, a group that Fidel named. When Fidel started the program it was a three year program, but in the second and third years, the more experienced trainees helped teach the first-years. Fidel’s appreciation for Don Bustos is clear. 
 >He helped me to remember something that we already know, which is agriculture. And in such a good way, because he's such a great person. Really good human being. And he was there every time we had a question. 
 
 # Agriculture vs. Farming 
