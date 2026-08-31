@@ -33,7 +33,7 @@ Today, Fidel farms in the South Valley of Albuquerque.
 
 # The Arts, Religion, and Agriculture 
 Fidel first played the guitar when he was six or seven years old. Thanks to his mom and the support of his community, he bought his own guitar when he 14. His mom joyfully supported his dreams of being a musician. 
->“I think she was wondering if one of her kids would do something like that. Because she was so happy”  
+>I think she was wondering if one of her kids would do something like that. Because she was so happy  
 
 Fidel’s ties his love of music and his spirituality directly to agriculture.These things together make Fidel feel human. 
 
@@ -41,7 +41,7 @@ Fidel’s ties his love of music and his spirituality directly to agriculture.Th
 
 # Agri-Cultura Network and Learning
 Fidel learned farming from Don Bustos through the Agri-Cultura Network, a group that Fidel named. When Fidel started the program it was a three-years, but in the second and third years, the more experienced trainees helped teach the first-years. Fidel’s appreciation for Don Bustos is clear. 
->“He helped me to remember something that we already know, which is agriculture. And in such a good way, because he's such a great person. Really good human being. And he was there every time we had a question” 
+>He helped me to remember something that we already know, which is agriculture. And in such a good way, because he's such a great person. Really good human being. And he was there every time we had a question 
 
 # Agriculture vs. Farming 
 Fidel views farming and agriculture as distinctly different terms. He views farming as the practices and agriculture as a lifestyle. 
@@ -49,9 +49,9 @@ Fidel views farming and agriculture as distinctly different terms. He views farm
 
 
 # Challenges 
-For Fidel, there are many challenges to growing in Albuquerque. Firstly, there is no year-round farmer’s market which makes financial feasibliilty difficult in the winter. The places to sell produce that do still exist in the winter such as restaurants and schools become very competitive. 
+For Fidel, there are many challenges to growing in Albuquerque. Firstly, there is no year-round farmer’s market which makes financial feasibliilty difficult in the winter. The places to sell produce that do still exist in the winter such as restaurants and schools become very competitive. Additionally access to land in the Albuquerque area is increasingly expensive. 
 
-There are also the challenges of growing in the desert. There is not a lot of water, so farmers in the Albuquerque area have to get creative. There's also pests such as grasshoppers (20.2) and the ever-increasing heat (21). Local land access and the lack of a year-round farmer's market in Albuquerque are the two challenges Fidel flags as most urgent.
+There are also the challenges of growing in the desert. There is less and less water availability every year, so farmers have to get creative. There are also shifting pest pressures and the ever-increasing heat. Fidel flags the lack of local land access and a year-round farmer's market as well as challenges associated with desert growing as the most urgent.
  
 
 # Sustainability  
