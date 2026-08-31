@@ -57,14 +57,14 @@ Fidel discusses his broader definition of sustainability that informs his life a
 
 He applies the number five idea internally as well as agriculturally. 
 
->“If I use that in myself and anything inside of me circulates in my system five times before it goes out, I can call it a sustainable internal ecosystem… to me sustainability begins by doing what you really like to do in life” (58) 
+>If I use that in myself and anything inside of me circulates in my system five times before it goes out, I can call it a sustainable internal ecosystem… to me sustainability begins by doing what you really like to do in life.
 
 The number five points also to Fidel’s belief that sustainability is based in community and community support for agriculture. He discusses La Consecha, a non-profit organization that he started, that runs a CSA (Community Supported Agriculture) program. The CSA supports farmers, but it is also subsidized for low-income community members. 
 In terms of agricultural practices, sustainability to Fidel means saving seeds. When Fidel went to India to learn about agriculture, they told him that he couldn’t call himself sustainable if he bought seeds every year. 
 
-> “I had the chance to go to India to learn about agriculture. When I was there in the workshop, they asked me, do you do seeds preservation or do you buy your seeds? And I told them, I buy my seeds because I need many. And they told me, so don't call yourself sustainable.”
+> I had the chance to go to India to learn about agriculture. When I was there in the workshop, they asked me, do you do seeds preservation or do you buy your seeds? And I told them, I buy my seeds because I need many. And they told me, so don't call yourself sustainable.
 
-# Colonialization and Indigenous agricultural knowledge 
+# Colonialization and Indigenous Knowledges
 When Fidel started farming in the United States, he found himself overwhelmed by the technical terms like companion planting, cover cropping, etc. He discusses the ways in which colonization and European knowledge systems destroyed and stole Indigenous knowledges, including agricultural knowledges, and made those knowledges inaccessible and technical. Agriculture, for Fidel, is about reconnecting with those knowledges that have existed for a very long time. 
 
 
