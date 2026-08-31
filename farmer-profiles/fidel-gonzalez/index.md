@@ -65,10 +65,8 @@ In terms of agricultural practices, sustainability to Fidel means saving seeds. 
 > “I had the chance to go to India to learn about agriculture. When I was there in the workshop, they asked me, do you do seeds preservation or do you buy your seeds? And I told them, I buy my seeds because I need many. And they told me, so don't call yourself sustainable.”
 
 # Colonialization and Indigenous agricultural knowledge 
-When Fidel started farming in the United States, he found himself overwhelmed by the technical terms like companion planting, cover cropping, etc. He discusses the ways in which colonization and European knowledge systems destroyed and stole Indigenous knowledges, including agricultural knowledges, and made those knowledges inaccessible and technical. Agriculture, for Fidel, is about reconnecting with those knowledges that have existed for a very long time. In the audio below, Fidel discusses the impacts of colonization on knowledge. 
-(37; 12.2) 
-# Returning to compost 
-Fidel slightly alters the religious saying, “From dust we came, and to dust we shall return” to “From compost we came and to compost we shall return”. The question is: what kind of compost will we be?
+When Fidel started farming in the United States, he found himself overwhelmed by the technical terms like companion planting, cover cropping, etc. He discusses the ways in which colonization and European knowledge systems destroyed and stole Indigenous knowledges, including agricultural knowledges, and made those knowledges inaccessible and technical. Agriculture, for Fidel, is about reconnecting with those knowledges that have existed for a very long time. 
+
 
 
 
