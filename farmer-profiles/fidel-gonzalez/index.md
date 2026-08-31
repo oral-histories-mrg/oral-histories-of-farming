@@ -41,12 +41,12 @@ Fidel’s ties his love of music and his spirituality directly to agriculture.Th
 
 # Agri-Cultura Network and Learning
 Fidel learned farming from Don Bustos through the Agri-Cultura Network, a group that Fidel named. When Fidel started the program it was a three-years, but in the second and third years, the more experienced trainees helped teach the first-years. Fidel’s appreciation for Don Bustos is clear. 
->He helped me to remember something that we already know, which is agriculture. And in such a good way, because he's such a great person. Really good human being. And he was there every time we had a question 
+>He helped me to remember something that we already know, which is agriculture. And in such a good way, because he's such a great person. Really good human being. And he was there every time we had a question. 
 
 # Agriculture vs. Farming 
 Fidel views farming and agriculture as distinctly different terms. He views farming as the practices and agriculture as a lifestyle. 
->“Yes. I told you agriculture is a way of life. Farming is the verb. Farming is to do it. But agriculture itself is a way of life. Mostly like I told you, since I'm involved with ceremony and I like to learn about Buddhism, Taoism and Hinduism. I mean, you see the agriculture is involved in all of it. So farming is how you do it. So right there you got the mission and the vision. Because agriculture is the vision and farming is the mission is what you do to make it happen. Because you have to have your vision and your mission. When you see agriculture as a way of life, it's a nice vision. But then how do you do it? Farming. So, you've got vision and the mission and the concept of agriculture.” (audio)
-
+>Agriculture is a way of life. Farming is the verb. Farming is to do it. But agriculture itself is a way of life.
+{% include media/audio.html src="audio/fidel_gonzalez_2.mp3" %}
 
 # Challenges 
 For Fidel, there are many challenges to growing in Albuquerque. Firstly, there is no year-round farmer’s market which makes financial feasibliilty difficult in the winter. The places to sell produce that do still exist in the winter such as restaurants and schools become very competitive. Additionally access to land in the Albuquerque area is increasingly expensive. 
