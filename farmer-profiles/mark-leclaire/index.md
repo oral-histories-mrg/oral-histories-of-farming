@@ -28,7 +28,6 @@ tags:
 
 Mark LeClaire is the owner of Atrisco Truck Farm, an organic farm in the South Valley of Albuquerque, New Mexico. The “truck” part of the name came from his son’s love of trucks when he was younger. Mark lives in the Old Town area of Albuquerque, and the name is also an acknowledgment of the area's history as a farming community where farmers would load their trucks with produce and gather in the old town plaza.  Mark uses primarily no-till techniques and has a deep interest in seed saving and native varieties. In the audio below, Mark discusses his journey of getting started in farming. 
 
- [audio of him talking about getting started] 
 
 # No-till  
 
